@@ -23,8 +23,10 @@ function ClientPageExample(){
     if (loading) return <h1>Loading data! Please wait</h1>
     
     return (
-      <div>
-        <h1 className="text-2xl font-semibold italic">Client page server </h1>
+      <div className="p-4">
+        <h1 className="text-2xl font-semibold italic">
+          Client page server actions example - server components{" "}
+       </h1>
         <ul className="mt-2 space-y-2 text-sm">
           {products && products.length > 0 ? (
             products.map((productItem) => (

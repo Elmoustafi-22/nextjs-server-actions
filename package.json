@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-label": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -22,13 +22,6 @@
     "react-dom": "^19.0.0",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
-=======
-    "joi": "^17.13.3",
-    "mongoose": "^8.9.3",
-    "next": "15.1.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
->>>>>>> 5fe5a59f7df71b12eeb1b996bc2a73f56fcdfcda
   },
   "devDependencies": {
     "postcss": "^8",
